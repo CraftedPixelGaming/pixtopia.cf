@@ -15,23 +15,7 @@ class App extends Component {
     return (
       <Router>
         <Switch>
-          <Route
-            path="/status"
-            render={() => {
-              changeFavicon('/images/canaryLogo.png');
-              return (
-                <iframe src="https://chromebook777production.statuspage.io/" />
-              );
-            }}
-          />
-          <Route
-            render={() => {
-              changeFavicon('/images/chromebotLogo.png');
-              return (
-                <iframe src="https://chromebot-canary-and-chromebot.weebly.com/" />
-              );
-            }}
-          />
+          Hello World!
         </Switch>
       </Router>
     );
