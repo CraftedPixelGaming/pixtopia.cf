@@ -10,10 +10,11 @@ iframe {
 	margin: 0;
 	width: 100%;
 	height: 100%;
+	color: white;
 }
 html, body {
 	overflow: hidden;
-	background-image: linear-gradient(#00D7B6, #09099E, #111111);
+	background-image: linear-gradient(#00D7B6, #09099E, #555555);
 }
 .title {
 	width: 100%;
@@ -29,7 +30,6 @@ html, body {
 	font-size: 3vw;
 	text-align: center;
 	background-color: black;
-	color: white;
 	margin-top: 1vw;
 	padding: 1vw;
 }
