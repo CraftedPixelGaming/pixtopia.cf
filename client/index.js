@@ -13,10 +13,12 @@ console.log(
 class App extends Component {
   render() {
     return (
-      <div class="title">Pixtopia</div>
-      <div class="sub title">The best game you will probably never play</div>
-      <div class="mini title">And all my other projects</div>
-      <p>Pixtopia was a game I decided to make after a scammer who wanted a big discord server got people to join to create a game. I thought that I could rival it: yeah, no</p>
+      <React.Fragment>
+        <div class="title">Pixtopia</div>
+        <div class="sub title">The best game you will probably never play</div>
+        <div class="mini title">And all my other projects</div>
+        <p>Pixtopia was a game I decided to make after a scammer who wanted a big discord server got people to join to create a game. I thought that I could rival it: yeah, no</p>
+      </React.Fragment>
     );
   }
 }
