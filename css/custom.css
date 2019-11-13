@@ -13,4 +13,23 @@ iframe {
 }
 html, body {
 	overflow: hidden;
+	background-image: linear-gradient(down, #00D7B6, #09099E, #111111);
+}
+.title {
+	width: 100%;
+	height: auto;
+	font-size: 25vw;
+	text-align: center;
+}
+.title.sub {
+	font-size: 4.7vw;
+	text-align: center;
+}
+.title.mini {
+	font-size: 3vw;
+	text-align: center;
+	background-color: black;
+	color: white;
+	margin-top: 1vw;
+	padding: 1vw;
 }
