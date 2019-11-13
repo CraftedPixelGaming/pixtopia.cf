@@ -13,7 +13,7 @@ iframe {
 }
 html, body {
 	overflow: hidden;
-	background-image: linear-gradient(down, #00D7B6, #09099E, #111111);
+	background-image: linear-gradient(#00D7B6, #09099E, #111111);
 }
 .title {
 	width: 100%;
