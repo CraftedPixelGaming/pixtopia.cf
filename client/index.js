@@ -17,6 +17,7 @@ class App extends Component {
         <div class="title">Pixtopia</div>
         <div class="sub title">The best game you will probably never play</div>
         <div class="mini title">And all my other projects</div>
+        <div class="sub title">Welcome to the project graveyard</div>
         <p>Pixtopia was a game I decided to make after a scammer who wanted a big discord server got people to join to create a game. I thought that I could rival it: yeah, no</p>
       </React.Fragment>
     );
